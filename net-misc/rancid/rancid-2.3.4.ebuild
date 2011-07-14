@@ -1,13 +1,16 @@
-# Copyright 1999-2006 Gentoo Foundation
+# Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: $
+
 inherit eutils autotools
 DESCRIPTION="RANCID - Really Awesome New Cisco confIg Differ"
 HOMEPAGE="http://www.shrubbery.net/rancid/"
 SRC_URI="ftp://ftp.shrubbery.net/pub/rancid/${P}.tar.gz"
+
 SLOT="0"
 KEYWORDS="amd64 x86"
 IUSE="svn"
+
 DEPEND="dev-vcs/cvs
 	sys-apps/diffutils 
 	dev-lang/perl

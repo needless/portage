@@ -1,6 +1,6 @@
 # Copyright 1999-2010 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/dev-games/ogre/ogre-1.6.4.ebuild,v 1.3 2009/12/21 20:44:22 mr_bones_ Exp $
+# $Header: $
 
 EAPI=2
 inherit multilib eutils cmake-utils
