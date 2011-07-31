@@ -1,8 +1,7 @@
 # Copyright 1999-2011 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=2
-#MY_P=${P/ams/amS}
+EAPI=3
 
 inherit subversion
 
@@ -24,8 +23,6 @@ RDEPEND="dev-cpp/gtkmm:2.4
 	jack? ( media-sound/jack-audio-connection-kit )"
 DEPEND="${RDEPEND}
 	dev-util/pkgconfig"
-
-#S=${WORKDIR}/${MY_P}
 
 src_configure() {
 	econf \
