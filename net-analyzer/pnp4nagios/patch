@@ -1,0 +1,19 @@
+*** pnp4nagios-0.6.7-r1.ebuild	2011-02-25 23:18:13.000000000 +0100
+--- /usr/portage/net-analyzer/pnp4nagios/pnp4nagios-0.6.7.ebuild	2010-10-31 16:15:30.000000000 +0100
+***************
+*** 20,26 ****
+  	|| ( <dev-lang/php-5.3[pcre,reflection,spl] >=dev-lang/php-5.3 )
+  	|| ( >=dev-lang/php-4.3[gd-external] >=dev-lang/php-4.3[gd] )
+  	>=net-analyzer/rrdtool-1.2
+! 	|| ( net-analyzer/icinga net-analyzer/nagios-core )"
+  RDEPEND="${DEPEND}
+  	virtual/perl-Getopt-Long
+  	virtual/perl-Time-HiRes
+--- 20,26 ----
+  	|| ( <dev-lang/php-5.3[pcre,reflection,spl] >=dev-lang/php-5.3 )
+  	|| ( >=dev-lang/php-4.3[gd-external] >=dev-lang/php-4.3[gd] )
+  	>=net-analyzer/rrdtool-1.2
+! 	net-analyzer/nagios-core"
+  RDEPEND="${DEPEND}
+  	virtual/perl-Getopt-Long
+  	virtual/perl-Time-HiRes

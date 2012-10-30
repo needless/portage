@@ -1,0 +1,22 @@
+sys-libs/pam sys-libs/readline dev-vcs/git
+sys-libs/pam sys-libs/readline
+0
+
+
+https://github.com/Nadrin/xlsh
+GPL-1
+eXtended Login Shell
+
+eutils flag-o-matic git-2 multilib pam portability toolchain-funcs user
+
+
+
+
+3
+
+compile install unpack
+
+
+
+
+

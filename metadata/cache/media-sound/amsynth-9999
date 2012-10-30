@@ -1,0 +1,22 @@
+dev-cpp/gtkmm:2.4 sndfile? ( >=media-libs/libsndfile-1 ) alsa? ( media-libs/alsa-lib media-sound/alsa-utils ) jack? ( media-sound/jack-audio-connection-kit ) dev-util/pkgconfig dev-vcs/subversion net-misc/rsync
+dev-cpp/gtkmm:2.4 sndfile? ( >=media-libs/libsndfile-1 ) alsa? ( media-libs/alsa-lib media-sound/alsa-utils ) jack? ( media-sound/jack-audio-connection-kit )
+0
+
+
+http://code.google.com/p/amsynth/
+GPL-2
+Analogue Modelling SYNTHesizer.
+~amd64 ~ppc ~sparc ~x86
+eutils multilib portability subversion toolchain-funcs user
+alsa debug jack lash oss sndfile
+
+
+
+3
+
+compile configure install postinst preinst prepare unpack
+
+
+
+
+

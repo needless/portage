@@ -1,0 +1,22 @@
+x11-libs/libX11 media-sound/jack-audio-connection-kit media-libs/alsa-lib media-libs/libsamplerate x11-libs/gtk+:2 dev-util/pkgconfig >=dev-vcs/git-1.6
+x11-libs/libX11 media-sound/jack-audio-connection-kit media-libs/alsa-lib media-libs/libsamplerate x11-libs/gtk+:2
+0
+
+
+https://github.com/grammo/phasex
+GPL-2
+Software synthesizer (Phase Harmonic Advanced Synthesis EXperiment)
+~amd64 ~x86
+eutils git multilib portability toolchain-funcs user
+
+
+
+
+2
+
+compile install prepare unpack
+
+
+
+
+

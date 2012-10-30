@@ -1,0 +1,22 @@
+media-sound/jack-audio-connection-kit >=media-sound/ardour-3.9999[lv2]
+
+0
+http://foo-yc20.googlecode.com/files/foo-yc20-1.3.0.tar.bz2
+
+http://code.google.com/p/foo-yc20/
+GPL-3
+YC-20 organ emulation
+~x86 ~amd64
+
+
+
+
+
+2
+
+compile install
+
+
+
+
+

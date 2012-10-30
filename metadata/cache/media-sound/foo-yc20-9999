@@ -1,0 +1,22 @@
+media-sound/jack-audio-connection-kit >=media-sound/ardour-3.9999[lv2] dev-vcs/subversion net-misc/rsync
+
+0
+
+
+http://code.google.com/p/foo-yc20/
+GPL-3
+YC-20 organ emulation
+
+eutils multilib portability subversion toolchain-funcs user
+
+
+
+
+2
+
+compile install preinst prepare unpack
+
+
+
+
+
